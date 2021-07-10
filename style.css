@@ -26,7 +26,7 @@ ul,li{
     max-width: 1420px;
 }
 
-/* flex-items */
+/*************************** flex-items **************************/
 .display-flex{
     display: flex;
 }
@@ -54,7 +54,7 @@ ul,li{
 .features-section .features-right{
     width: 100%;
 }
-.padding-t-b{
+.padding-top-bottom{
     padding:  75px 0;
 }
 .width-50{
@@ -106,7 +106,7 @@ html{
 .position-relative{
     position: relative;
 }
-/* click-to-up-section */
+/**************************** click-to-up-section ******************************/
 .click-to-up {
 	width: 50px;
 	height: 50px;
@@ -148,7 +148,9 @@ html{
     }
   }
   
-/* header-section */
+
+/*************************************** header-section *******************************/
+
 header .nav ul li {
 	position: relative;
 	margin-right: 20px;
@@ -206,7 +208,8 @@ header .nav ul ul li:hover::before{
 }
 
 
-/* header nav section  */
+/***************************** header nav section  *************************/
+
 .main-menu .logo-img{
     width: 75px;
 
@@ -221,7 +224,8 @@ header .nav ul li a{
 }
 
 
-/* dropdown menu  */
+/************************ dropdown menu  *************************/
+
 header .nav ul li{
     position: relative;
 }
@@ -255,8 +259,11 @@ header ul li:hover ul {
 .header-full-section{
     z-index: 999;
     position: relative;
+    top: 12px;
 }
-/* banner-section */
+
+
+/****************************** banner-section **************************/
 
 .display-flex.my-button-2 a::after {
 	content: "How we work ";
@@ -382,7 +389,6 @@ header ul li:hover ul {
 	left: 3px;
 	z-index: 2;
 }
-
 .line::before {
 	content: "";
 	height: 20px;
@@ -402,7 +408,9 @@ header ul li:hover ul {
     to {top:100%;}
   }
 
-/*features section*/
+
+/**************************features section**************************/
+
 .features-section{
     background: #fff;
 }
@@ -442,7 +450,9 @@ header ul li:hover ul {
     margin-left: 10px;
 }
  
-/*business-section */
+
+/******************************business-section ********************************/
+
 .business-section{
     background: url(./img/ia_100000024.jpg) no-repeat center center;
     background-size: cover;
@@ -482,7 +492,9 @@ header ul li:hover ul {
 .business-section form .input-3{
     width: 18%;
 }
-/*marketting-section */
+
+
+/**********************************marketting-section ***********************/
 
 .marketting-section{
     padding: 100px 0;
@@ -535,14 +547,14 @@ header ul li:hover ul {
     color: #1c1c25;
     line-height: 62px;
     margin-top: -23px;
-
 }
 .marketting-section .marketting-all-content p{
     color: #888;
 }
 
 
-/* project-section */
+/************************** project-section ************************/
+
 .projects-sections{
     background: url(./img/ia_100000023.jpg) no-repeat center center;
     background-size: cover;
@@ -613,7 +625,9 @@ header ul li:hover ul {
     transition: .5s;
 }
 
-/* faq-section */
+
+/******************************* faq-section *****************************/
+
 .faq-section {
 	padding: 166px 0;
 }
@@ -658,7 +672,9 @@ header ul li:hover ul {
     font-size: 22px;
 }
 
-/* clients section begin */
+
+/*************************** clients section begin ************************/
+
 .testimonial-section {
 	background: url(./img/ia_100000024.jpg) no-repeat center center;
 	background-size: cover;
@@ -720,7 +736,8 @@ header ul li:hover ul {
 }
 
 
-/* pricing-section */
+/***************************** pricing-section ***********************/
+
 .pricing-section .card-img{
     width: 60%;
     margin: 0 auto;
@@ -807,7 +824,9 @@ header ul li:hover ul {
 .pricing-section .pricing-cards:hover h3{
    color:#ff582c;
 }
-/* news-section */
+
+
+/****************************** news-section ******************************/
 
 .news-section{
     background: #edf3fb;
@@ -864,7 +883,10 @@ header ul li:hover ul {
 .news-section .news-icons p:hover, .card-full-body h4:hover,.card-full-body a:hover{
     color: red !important;
 }
-/* footer section */
+
+
+/***************************** footer section *****************************/
+
 .footer-section{
     background: url(./img/ia_100000028.jpg) no-repeat center center;
     background-size: cover;
@@ -958,7 +980,6 @@ header ul li:hover ul {
     font-size: 17px;
     margin-top:30px;
 }
-
 .footer-section-bottom{
     padding: 25px 0;
     border-top:1px solid #888;
@@ -1003,7 +1024,7 @@ html{
     visibility: visible;
     opacity: 1;
 }
-/* details section bottom */
+
 
 .faq-left-contexts {
     background: #fff;
@@ -1016,7 +1037,6 @@ html{
 .faq-left-contexts .frequinet-tittle h2 {
     font-size: 30px;
 }
-
 .faq-full-box {
     margin-bottom: 15px;
 }
@@ -1062,8 +1082,6 @@ html{
 	font-size: 24px;
 	color: #fff;
 }
-
-
 .faq-full-box details[open] summary::after{
     opacity: 1;
     visibility: visible;
